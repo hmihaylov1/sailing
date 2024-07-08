@@ -1,0 +1,165 @@
+
+.telemetry-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #0D1F26;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.video-chart-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.video-feed {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.video-player {
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+}
+
+.telemetry-chart {
+    width: 55%;
+}
+
+.lower-half {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gauges {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.gauge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gauge h3 {
+    margin-bottom: 10px;
+}
+
+.map-container {
+    width: 60%;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.telemetry-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f2f2f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.graph {
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.round-map-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.round-map {
+    height: 60%;
+    width: 60%;
+    margin-top: 40px;
+}
+.uplodvedio{
+    margin-left: 20px;
+}
+.icon-button{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.gauge-map{
+    width: 60%;
+}
+.maptext{
+    /* text-align: center; */
+    /* margin-left: 60px; */
+}
+
+.slider {
+    width: 400%;
+}
+
+
+.gauges-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.gauge-map {
+    margin-right: 20px;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.slider-container h3 {
+    margin-bottom: 5px;
+}
+
+.slider {
+    /* width: 400%; */
+    flex-grow: 1;
+    accent-color: #ffa500;
+}
+
+.mapTitle{
+    margin-left: 30px;
+}
+
+.compass{
+    margin-top: 10px;
+}
